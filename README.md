@@ -8,20 +8,17 @@ This repository contains the code to minimize torque control effort for a 2-link
 - `base.stl` - Robot base CAD file
 - `link1.stl` - Robot link 1 CAD file
 - `link2.stl` - Robot link 2 CAD file
-- `TWO_link_ROBOTiC_ARM_ASEEMBLY - Part_0_Link__0-1.stl` - Robot CAD assembly file
-- `TWO_link_ROBOTiC_ARM_ASEEMBLY - Part_1_Arm__1-1.stl` - Robot CAD assembly file
-- `TWO_link_ROBOTiC_ARM_ASEEMBLY - Part_2_Arm__2-1.stl` - Robot CAD assembly file
 ## MATLAB Features 
-  - Beginning and end joint positon input.
-  - Optmization of torque cost.
-  - Visualize in plots.
+- Beginning and end joint positon input.
+- Optmization of torque cost.
+- Visualize in plots.
 ## MuJoCo Features
-  - Load STL meshes for base, link1, and link2.
-  - Analyze mesh geometry, bounding boxes, and recommend XML alignment fixes.
-  - Forward kinematics checks and body/joint diagnostics.
-  - Min-jerk and energy-optimized arm trajectories.
-  - PID + inverse dynamics control for smooth motion.
-  - Render video of arm motion.
+- Load STL meshes for base, link1, and link2.
+- Analyze mesh geometry, bounding boxes, and recommend XML alignment fixes.
+- Forward kinematics checks and body/joint diagnostics.
+- Min-jerk and energy-optimized arm trajectories.
+- PID + inverse dynamics control for smooth motion.
+- Render video of arm motion.
 ## Requirements to Run
 - Python 3.9+
 - Packages: numpy, scipy, matplotlib, mediapy, jax, flax, orbax, mujoco, brax, mujoco_playground
@@ -36,7 +33,7 @@ This repository contains the code to minimize torque control effort for a 2-link
 2. Run the optimization code.
 3. Customization
     Adjust start/target joint angles.
-    Increase/Decrease the leading value in smooth_penalty to decrease/increase torque choppiness 
+    Increase/Decrease the leading value in smooth_penalty to decrease/increase torque choppiness.
 ## MuJoCo Quick Start
 1. Copy STL files to the working directory-
     shutil.copy("base.stl", "base.stl")
