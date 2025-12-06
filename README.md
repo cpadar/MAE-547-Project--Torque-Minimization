@@ -5,6 +5,14 @@ This repository contains the code to minimize torque control effort for a 2-link
 ## Files Included
 - `547_Project.mlx` - MATLAB `.mlx` file for optimization and plotting
 - `Mujoco_Simulation_of_Unoptimized_and_Optimized_Motion.ipynb` - MuJoCo simulation file
+- `mujoco_simulation_of_unoptimized_and_optimized_motion.py`
+- `base.stl` - Robot base CAD file
+- `link1.stl` - Robot link 1 CAD file
+- `link2.stl` - Robot link 2 CAD file
+- `TWO_link_ROBOTiC_ARM_ASEEMBLY - Part_0_Link__0-1.stl` - Robot CAD assembly file
+- `TWO_link_ROBOTiC_ARM_ASEEMBLY - Part_1_Arm__1-1.stl` - Robot CAD assembly file
+- `TWO_link_ROBOTiC_ARM_ASEEMBLY - Part_2_Arm__2-1.stl` - Robot CAD assembly file
+- `arm26.xml` - Add descrip
 ## MATLAB Features 
   - Beginning and end joint positon input.
   - Optmization of torque cost.
